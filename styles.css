@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fcaf02;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    width: 170px;
+    background-color: #fcaf02;
+    color: #000000;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.intro-image img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px;
+}
+
+.contact-us h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fcaf02;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contact-us input {
+    padding: 15px;
+    border: 2px solid #fcaf02;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25px;
+    width: 97.6%;
+    font-size: 16px;
+}
+
+.contact-us input::placeholder {
+    color: #fcaf02;
+}
+
+.contact-us input:focus {
+    outline: none;
+}
+
+.contact-us form .input-group {
+    display: flex;
+    gap: 35px;
+}
+
+.contact-us form .input-group input {
+    width: 100%;
+    flex: 1;
+}
+
+.contact-us button {
+    padding: 15px;
+    width: 200px;
+    background-color: #fcaf02;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    align-self: center;
+}
+
+
+/* Table Section */
+.table-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.table-section td {
+    padding: 15px;
+    border-left: 1px solid #fcaf02;
+    border-right: 1px solid #fcaf02;
+    text-align: left;
+    color: #fcaf02;
+}
+
+.table-section th {
+    padding: 15px;
+    border: 1px solid #fcaf02;
+    text-align: left;
+    background-color: #000000;
+    color: #fcaf02;
+    font-weight: 200;
+}
+
+.table-section td {
+    background-color: #000000;
+}
+
+.table-section tfoot td {
+    border: 1px solid #000000;
+    background-color: #fcaf02;
+    color: #000000;
+}
